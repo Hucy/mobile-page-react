@@ -1,7 +1,7 @@
 {
   "name": "mobile-page-react",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "a mobile page layout for react",
   "main": "build/lib/index.js",
   "typings": "build/typings/index.d.ts",
   "module": "build/module/index.js",
@@ -11,6 +11,7 @@
     "styled-components": "^4.0.2",
     "@babel/runtime-corejs2": "^7.0.0"
   },
+  "repository": "https://github.com/Hucy/mobile-page-react",
   "devDependencies": {
     "@types/enzyme": "^3.1.15",
     "@types/jest": "^23.3.9",
