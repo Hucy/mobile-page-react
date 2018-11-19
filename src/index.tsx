@@ -40,7 +40,7 @@ export const FixedContent = styled.div`
   z-index: 1000;
 `;
 
-export const MainContent = styled.div`
+export const Content = styled.div`
   overflow: hidden;
   overflow-y: scroll;
   flex: 1;

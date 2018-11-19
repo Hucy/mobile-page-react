@@ -3,12 +3,12 @@ import React from 'react';
 
 import { mount } from 'enzyme';
 
-import { FixedContent, MainContent, MaxHeightContent } from '../src';
+import { Content, FixedContent, MaxHeightContent } from '../src';
 
 test('should render correctly', () => {
   const FixedWrapper = mount(<FixedContent />);
   expect(FixedWrapper).toMatchSnapshot();
-  const MainWrapper = mount(<MainContent />);
+  const MainWrapper = mount(<Content />);
   expect(MainWrapper).toMatchSnapshot();
 
   const MaxHeightContentWrapper = mount(<MaxHeightContent />);
