@@ -1,8 +1,11 @@
 {
   "name": "mobile-page-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "build/lib/index.js",
+  "typings": "build/typings/index.d.ts",
+  "module": "build/module/index.js",
+  "keywords": ["react","cbs","mobile","layout"],
   "dependencies": {
     "react": "^16.5.0",
     "styled-components": "^4.0.2",
