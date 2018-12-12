@@ -8,10 +8,10 @@ exports[`should render correctly 1`] = `
 
 <styled.div>
   <StyledComponent
-    forwardedClass={
+    forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
+        "attrs": Array [],
         "componentStyle": ComponentStyle {
           "componentId": "sc-htpNat",
           "isStatic": true,
@@ -24,9 +24,11 @@ exports[`should render correctly 1`] = `
           ],
         },
         "displayName": "styled.div",
+        "foldedComponentIds": Array [],
         "render": [Function],
         "styledComponentId": "sc-htpNat",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -52,10 +54,10 @@ exports[`should render correctly 2`] = `
 
 <styled.div>
   <StyledComponent
-    forwardedClass={
+    forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
+        "attrs": Array [],
         "componentStyle": ComponentStyle {
           "componentId": "sc-bxivhb",
           "isStatic": true,
@@ -70,9 +72,11 @@ exports[`should render correctly 2`] = `
           ],
         },
         "displayName": "styled.div",
+        "foldedComponentIds": Array [],
         "render": [Function],
         "styledComponentId": "sc-bxivhb",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -109,10 +113,10 @@ exports[`should render correctly 3`] = `
 
 <styled.div>
   <StyledComponent
-    forwardedClass={
+    forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
-        "attrs": undefined,
+        "attrs": Array [],
         "componentStyle": ComponentStyle {
           "componentId": "sc-bdVaJa",
           "isStatic": true,
@@ -129,9 +133,11 @@ exports[`should render correctly 3`] = `
           ],
         },
         "displayName": "styled.div",
+        "foldedComponentIds": Array [],
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }

@@ -24,15 +24,13 @@ exports[`should render correctly 1`] = `
 }
 
 <Page>
-  <GlobalStyleComponent
-    suppressMultiMountWarning={false}
-  />
+  <GlobalStyleComponent />
   <Styled(styled.div)>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": undefined,
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bwzfXH",
             "isStatic": true,
@@ -53,9 +51,13 @@ exports[`should render correctly 1`] = `
             ],
           },
           "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
           "render": [Function],
           "styledComponentId": "sc-bwzfXH",
           "target": "div",
+          "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
@@ -69,4 +71,3 @@ exports[`should render correctly 1`] = `
   </Styled(styled.div)>
 </Page>
 `;
-
